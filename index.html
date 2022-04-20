@@ -7,12 +7,19 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Canada Quiz</title>
     </head>
-    <body>
-        <div class="container" id="container">
+    <header>
+        <div class="header">
             <h1>Canada Quiz</h1>
             <p>Welcome to the Canadian Quiz! <br />
             Test your northern knowledge and see if 
             you could make it living with the Canucks</p>
+        </div>
+    </header>
+    <body>
+        <div class="header">
+            <button onclick="toggleDisplay('container'), removeButton('start')" id="start">Start!</button>
+        </div>
+        <div class="container" id="container">
             <div>
                 <div id="question"></div>
                 <div>

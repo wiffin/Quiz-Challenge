@@ -36,4 +36,24 @@ quizQuestions.forEach (function(nextQuestion) {
                                     if (nextQuestion = quizQuestions[3]) {
                                     document.getElementById("finished").textContent = finish;
 };});});};});});};});});};});});
-    
+
+function toggleDisplay(id) { 
+    var el = document.getElementById(id);
+    if (el && el.style) {
+        el.style.display = el.style.display != 'flex'? 'flex' : '';
+    } 
+}
+
+function removeButton(id) { 
+    var el = document.getElementById(id);
+    if (el && el.style) {
+        el.style.display = el.style.display != 'none'? 'none' : '';
+    } 
+}
+
+
+// timer starts at 60 seconds
+
+// click start pull first question and start timer
+
+// pull question with answers, if true next question else minus 5 seconds from timer
