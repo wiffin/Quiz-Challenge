@@ -2,7 +2,9 @@
 
 ## Description
 
-Short true or false quiz about Canada!
+Short true or false quiz about Canada! Try it out with the link below.
+
+https://wiffin.github.io/Quiz-Challenge
 
 ## Table of Contents
 
